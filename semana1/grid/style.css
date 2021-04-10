@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  display: grid;
+  grid-template-rows: 2fr 10fr 1fr;
+  height: 100vh;
+}
+
+header {
+  background-color: #EF996A;
+}
+
+footer {
+  background-color: #53AF71;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+.section .left {
+  background-color:#0066B0;
+}
+
+.section .right {
+  background-color: #FFF168;
+  margin: 1.5%;
+}
+
